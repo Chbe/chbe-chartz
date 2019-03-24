@@ -13,7 +13,7 @@ main.appendChild(darkButton);
 themeHandler();
 
 async function getChartData() {
-    const url = './src/data/data.json';
+    const url = './data/data.json';
     let unParsed = await fetch(url);
     return await unParsed.json();
 };
