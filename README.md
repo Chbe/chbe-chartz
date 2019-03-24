@@ -2,4 +2,4 @@
 npm install
 npm run start
 
-No time for the shitty Edge browser.
+Should be a international law to use Chrome..
