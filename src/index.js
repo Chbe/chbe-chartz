@@ -20,7 +20,7 @@ async function getChartData() {
 
 async function initCharts(data) {
     for (let i = 0, len = data.length; i < len; i++) {
-        new Chart(charts, data[i], { height: 500, title: 'Followers ' + (i + 1) });
+        new Chart(charts, data[i], { height: (window.innerHeight * 0.01 * 50), title: 'Followers ' + (i + 1) });
     }
 }
 
