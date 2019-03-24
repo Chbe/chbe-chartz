@@ -2,4 +2,4 @@
 npm install
 npm run start
 
-Should be a international law to use Chrome..
+Should be an international law to use Chrome..
