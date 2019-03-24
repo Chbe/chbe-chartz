@@ -19,8 +19,9 @@ async function getChartData() {
 };
 
 async function initCharts(data) {
+    const height = (window.innerHeight * 0.01 * 50);
     for (let i = 0, len = data.length; i < len; i++) {
-        new Chart(charts, data[i], { height: (window.innerHeight * 0.01 * 50), title: 'Followers ' + (i + 1) });
+        new Chart(charts, data[i], { height: height, title: 'Followers ' + (i + 1) });
     }
 }
 
